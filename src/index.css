@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu-container a.default{
+    @apply ml-4
+}
+.menu-container a.active{
+    @apply ml-4 text-blue-700
+}
